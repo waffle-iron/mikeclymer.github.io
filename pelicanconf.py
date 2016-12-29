@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Mike Clymer'
 SITENAME = 'My So-Called Effective Field Theory'
-SITEURL = 'http://mikeclymer.github.io'
+SITEURL = 'http://mikeclymer.com'
 
 PATH = 'content'
 
@@ -20,14 +20,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (,)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/mikeclymer'),
+          ('LinkedIn', 'https://www.linkedin.com/in/mikeclymer'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -38,3 +35,4 @@ MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
+q
