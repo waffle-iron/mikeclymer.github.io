@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Mike Clymer'
 SITENAME = 'My So-Called Effective Field Theory'
-SITEURL = 'http://mikeclymer.github.io'
+SITEURL = 'http://mikeclymer.com'
 
 PATH = 'content'
 
