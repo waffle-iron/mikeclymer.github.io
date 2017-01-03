@@ -1007,7 +1007,7 @@ h6:hover .anchor-link {
 (mikeclymer.com) ~/mikeclymer.com conda install matplotlib&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;Instead of using the &lt;code&gt;requirements.txt&lt;/code&gt; file to install our dependencies with &lt;code&gt;pip&lt;/code&gt;, we will use our manually installed dependencies to generate an &lt;a href="http://conda.pydata.org/docs/using/envs.html#build-identical-conda-environments"&gt;explicit specification&lt;/a&gt; file to build identical environments.
-&lt;pre&gt;&lt;code&gt;(mikeclymer.com) ~/mikeclymer.com conda list --explicit &gt; spec-file.txt&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;(mikeclymer.com) ~/mikeclymer.com conda list --explicit &amp;gt; spec-file.txt&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="Pelican-quickstart-and-installing-the-Jupyter-plugin"&gt;Pelican quickstart and installing the Jupyter plugin&lt;a class="anchor-link" href="#Pelican-quickstart-and-installing-the-Jupyter-plugin"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;I followed the exact same steps and used the same inputs as highlighted &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/#creating-your-data-science-blog"&gt;here&lt;/a&gt; and &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/#installing-the-jupyter-plugin"&gt;here&lt;/a&gt;.&lt;/p&gt;
