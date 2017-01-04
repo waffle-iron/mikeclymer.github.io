@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Mike Clymer'
+HIDE_AUTHORS = True
 SITENAME = 'My So-Called Effective Theory'
 SITEURL = 'http://mikeclymer.github.io' # Intentionally left blank, see ./publishconf.py
 
