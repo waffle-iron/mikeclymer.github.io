@@ -64,14 +64,14 @@ BOOTSTRAPIFY = {
 # Theme settings --------------------------------------------------------------
 THEME = 'themes/pelican-alchemy/alchemy'
 
-# SITESUBTITLE = 'A magical \u2728 Pelican theme'
+SITESUBTITLE = 'Updating my credences daily'
 SITEIMAGE = '/images/happy_place.jpg'
 # DESCRIPTION = 'A functional, clean, responsive theme for Pelican. Heavily ' \
 #               'inspired by crowsfoot and clean-blog, powered by Bootstrap.'
 
 ICONS = [
-    ('github', 'https://github.com/mikeclymer'),
     ('linkedin-square', 'https://www.linkedin.com/in/mikeclymer'),
+    ('github', 'https://github.com/mikeclymer'),
     ('stack-overflow', 'http://stackoverflow.com/users/551818/mike-clymer'),
 ]
 
