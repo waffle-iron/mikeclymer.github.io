@@ -64,7 +64,7 @@ BOOTSTRAPIFY = {
 # Theme settings --------------------------------------------------------------
 THEME = 'themes/pelican-alchemy/alchemy'
 
-SITESUBTITLE = 'Updating my credences daily'
+SITESUBTITLE = 'A perpetual credence machine'
 SITEIMAGE = '/images/happy_place.jpg'
 # DESCRIPTION = 'A functional, clean, responsive theme for Pelican. Heavily ' \
 #               'inspired by crowsfoot and clean-blog, powered by Bootstrap.'
