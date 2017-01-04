@@ -4,3 +4,6 @@
 [submodule "plugins/pelican-bootstrapify"]
 	path = plugins/pelican-bootstrapify
 	url = https://github.com/ingwinlu/pelican-bootstrapify
+[submodule "plugins/ipynb"]
+	path = plugins/ipynb
+	url = git://github.com/danielfrg/pelican-ipynb.git
