@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Mike Clymer'
 HIDE_AUTHORS = True
 SITENAME = 'My So-Called Effective Theory'
-SITEURL = 'http://mikeclymer.github.io' # Intentionally left blank, see ./publishconf.py
+SITEURL = 'http://mikeclymer.github.io'
 
 PATH = 'content'
 
@@ -65,7 +65,7 @@ BOOTSTRAPIFY = {
 THEME = 'themes/pelican-alchemy/alchemy'
 
 # SITESUBTITLE = 'A magical \u2728 Pelican theme'
-SITEIMAGE = '/images/happy_place.jpg width=200 height=200'
+SITEIMAGE = '/images/happy_place.jpg'
 # DESCRIPTION = 'A functional, clean, responsive theme for Pelican. Heavily ' \
 #               'inspired by crowsfoot and clean-blog, powered by Bootstrap.'
 
