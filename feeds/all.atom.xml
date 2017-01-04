@@ -1041,4 +1041,4 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="python jupyter miniconda pelican"></category></entry></feed>
+</content><category term="python"></category><category term="jupyter"></category><category term="miniconda"></category><category term="pelican"></category></entry></feed>
