@@ -990,25 +990,25 @@ h6:hover .anchor-link {
 &lt;li&gt;Once you have Miniconda installed, create an environment specifically for your blog. As an example I created an environment named specifically for the domain where this blog resides.&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/mikeclymer.com conda create -n mikeclymer.com
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;li&gt;Then activate the newly created environment.
-&lt;pre&gt;&lt;code&gt;~/mikeclymer.com source activate mikeclymer.com&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;Then activate the newly created environment.&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/mikeclymer.com &lt;span class="nb"&gt;source&lt;/span&gt; activate mikeclymer.com
+&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="Installing-Pelican-(and-related-dependencies)-with-Miniconda"&gt;Installing Pelican (and related dependencies) with Miniconda&lt;a class="anchor-link" href="#Installing-Pelican-(and-related-dependencies)-with-Miniconda"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For the next few steps, we will reference the &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/#installing-pelican"&gt;Installing Pelican&lt;/a&gt; section of the post referenced above. We have already completed the creating a folder and activating an environment. We do need to complete the following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Create the &lt;code&gt;.gitignore&lt;/code&gt; file as referenced in the blog post.&lt;/li&gt;
-&lt;li&gt;Install the packages, listed in the &lt;code&gt;requirements.txt&lt;/code&gt; file, manually with Miniconda. Your package versions may differ from what I have listed in my example. Some of these packages need to installed in from sources outside of the normal Conda distributions. Reference the Conda docs for more information about how to locate the approproate source for various package dependencies.
-&lt;pre&gt;&lt;code&gt;(mikeclymer.com) ~/mikeclymer.com conda install markdown
-(mikeclymer.com) ~/mikeclymer.com conda install -c conda-forge pelican=3.7.0
-(mikeclymer.com) ~/mikeclymer.com conda install jupyter
-(mikeclymer.com) ~/mikeclymer.com conda install ipython
-(mikeclymer.com) ~/mikeclymer.com conda install nbconvert
-(mikeclymer.com) ~/mikeclymer.com conda install beautifulsoup4
-(mikeclymer.com) ~/mikeclymer.com conda install -c conda-forge ghp-import=0.5.4
-(mikeclymer.com) ~/mikeclymer.com conda install matplotlib&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;Install the packages, listed in the &lt;code&gt;requirements.txt&lt;/code&gt; file, manually with Miniconda. Your package versions may differ from what I have listed in my example. Some of these packages need to installed in from sources outside of the normal Conda distributions. Reference the Conda docs for more information about how to locate the approproate source for various package dependencies.&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;mikeclymer.com&lt;span class="o"&gt;)&lt;/span&gt; ~/mikeclymer.com conda install markdown
+&lt;span class="o"&gt;(&lt;/span&gt;mikeclymer.com&lt;span class="o"&gt;)&lt;/span&gt; ~/mikeclymer.com conda install -c conda-forge &lt;span class="nv"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;3.7.0
+&lt;span class="o"&gt;(&lt;/span&gt;mikeclymer.com&lt;span class="o"&gt;)&lt;/span&gt; ~/mikeclymer.com conda install jupyter
+&lt;span class="o"&gt;(&lt;/span&gt;mikeclymer.com&lt;span class="o"&gt;)&lt;/span&gt; ~/mikeclymer.com conda install ipython
+&lt;span class="o"&gt;(&lt;/span&gt;mikeclymer.com&lt;span class="o"&gt;)&lt;/span&gt; ~/mikeclymer.com conda install nbconvert
+&lt;span class="o"&gt;(&lt;/span&gt;mikeclymer.com&lt;span class="o"&gt;)&lt;/span&gt; ~/mikeclymer.com conda install beautifulsoup4
+&lt;span class="o"&gt;(&lt;/span&gt;mikeclymer.com&lt;span class="o"&gt;)&lt;/span&gt; ~/mikeclymer.com conda install -c conda-forge ghp-import&lt;span class="o"&gt;=&lt;/span&gt;0.5.4
+&lt;span class="o"&gt;(&lt;/span&gt;mikeclymer.com&lt;span class="o"&gt;)&lt;/span&gt; ~/mikeclymer.com conda install matplotlib
+&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;li&gt;Instead of using the &lt;code&gt;requirements.txt&lt;/code&gt; file to install our dependencies with &lt;code&gt;pip&lt;/code&gt;, we will use our manually installed dependencies to generate an &lt;a href="http://conda.pydata.org/docs/using/envs.html#build-identical-conda-environments"&gt;explicit specification&lt;/a&gt; file to build identical environments.
-&lt;pre&gt;&lt;code&gt;(mikeclymer.com) ~/mikeclymer.com conda list --explicit &amp;gt; spec-file.txt&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;Instead of using the &lt;code&gt;requirements.txt&lt;/code&gt; file to install our dependencies with &lt;code&gt;pip&lt;/code&gt;, we will use our manually installed dependencies to generate an &lt;a href="http://conda.pydata.org/docs/using/envs.html#build-identical-conda-environments"&gt;explicit specification&lt;/a&gt; file to build identical environments.&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;mikeclymer.com&lt;span class="o"&gt;)&lt;/span&gt; ~/mikeclymer.com conda list --explicit &amp;gt; spec-file.txt
+&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="Pelican-quickstart-and-installing-the-Jupyter-plugin"&gt;Pelican quickstart and installing the Jupyter plugin&lt;a class="anchor-link" href="#Pelican-quickstart-and-installing-the-Jupyter-plugin"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;I followed the exact same steps and used the same inputs as highlighted &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/#creating-your-data-science-blog"&gt;here&lt;/a&gt; and &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/#installing-the-jupyter-plugin"&gt;here&lt;/a&gt;.&lt;/p&gt;
