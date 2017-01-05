@@ -5,7 +5,7 @@
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Now that I am working primarily with Python, Django, Jupyter Notebook, etc, generating a static blog site with Pelican seems to be a good fit. If anything, it gives me an opportunity to explore these technologies in different ways. I figured I would get the obligatory meta-post about 'how I built this blog' by using Miniconda, Python, Pelican, and Jupyter Notebook.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+&lt;p&gt;Recently, I have been working primarily with Python, Django, Jupyter Notebook, and related technologies. I am using Jupyter Notebook to explore concepts related to my projects, as well as document their setup and process. Generating a static blog site with Pelican, via Jupyter Notebook, seems to be a good fit. If anything, it gives me an opportunity to explore these technologies in different ways. Hosting with Github Pages is simple and free.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -982,8 +982,8 @@ h6:hover .anchor-link {
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Now that I am working primarily with Python, Django, Jupyter Notebook, etc, generating a static blog site with Pelican seems to be a good fit. If anything, it gives me an opportunity to explore these technologies in different ways. I figured I would get the obligatory meta-post about 'how I built this blog' by using Miniconda, Python, Pelican, and Jupyter Notebook.&lt;/p&gt;
-&lt;p&gt;Luckily, there are a number of good posts out there about how to get going. I followed Vik Paruchuri's &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/"&gt;post&lt;/a&gt; for my core setup. I made a few changes to suit my preference for using &lt;a href="http://conda.pydata.org/docs/"&gt;Miniconda&lt;/a&gt; to manage Python versions (3.5), Python package dependencies, and Python environments.&lt;/p&gt;
+&lt;p&gt;Recently, I have been working primarily with Python, Django, Jupyter Notebook, and related technologies. I am using Jupyter Notebook to explore concepts related to my projects, as well as document their setup and process. Generating a static blog site with Pelican, via Jupyter Notebook, seems to be a good fit. If anything, it gives me an opportunity to explore these technologies in different ways. Hosting with Github Pages is simple and free.&lt;/p&gt;
+&lt;p&gt;I figured I would start with the obligatory meta-post about 'how I built this blog' by using Miniconda, Python, Pelican, and Jupyter Notebook. Luckily, there are a number of good posts out there about how to get going. I followed Vik Paruchuri's &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/"&gt;post&lt;/a&gt; for my core setup. I made a few changes to suit my preference for using &lt;a href="http://conda.pydata.org/docs/"&gt;Miniconda&lt;/a&gt; to manage Python versions (3.5), Python package dependencies, and Python environments.&lt;/p&gt;
 &lt;h3 id="Installing-Miniconda-and-creating-your-blog-environment"&gt;Installing Miniconda and creating your blog environment&lt;a class="anchor-link" href="#Installing-Miniconda-and-creating-your-blog-environment"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We need to get Miniconda installed and a Conda environment created specfically for your blog. I created a folder &lt;code&gt;~/mikeclymer.com&lt;/code&gt; to match the domain of this blog. I also created an environment with the same label to keep it simple. Here are the steps:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Follow the Conda documentation for installing Miniconda on your system (Mac OS X for me).&lt;/li&gt;
